@@ -11,7 +11,7 @@
 
 
 ### Deployment
-* Deploy Timesketch instance - [Deployment Directions](https://github.com/google/timesketch/blob/master/docs/getting-started/install.md)
+* Deploy Timesketch instance - [Deployment Directions](https://github.com/google/timesketch/blob/master/docs/guides/admin/install.md)
 * python3/pip3, awscli, unzip, and inotify-tools are required
   ```
   apt install python3 python3-pip unzip inotify-tools -y
