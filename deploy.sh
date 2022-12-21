@@ -6,9 +6,6 @@ apt install inotify-tools -y
 # Install pip requirements
 pip3 install boto3 pytz 
 
-# Install requirements within Timesketch container
-docker exec -i timesketch_timesketch-worker_1 /bin/bash -c "pip3 install timesketch-import-client redis==3.4 pyelasticsearch elasticsearch==7.13.1"
-
 # Copy files
 cp python/watch-s3-to-timesketch.py /opt/watch-s3-to-timesketch.py
 cp bash/watch-to-timesketch.sh /opt/watch-to-timesketch.sh
