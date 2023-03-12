@@ -2,7 +2,7 @@
 Description=Watch and Sync S3 to Timesketch
 
 [Service]
-ExecStart=/usr/bin/python /opt/watch-s3-to-timesketch.py
+ExecStart=/usr/bin/python3 /opt/watch-s3-to-timesketch.py
 
 [Install]
 WantedBy=multi-user.target
